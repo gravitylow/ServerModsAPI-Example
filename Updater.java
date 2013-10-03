@@ -75,7 +75,7 @@ public class Updater {
             // Open a connection and query the project
             URLConnection conn = url.openConnection();
 
-            if(apiKey != null) {
+            if (apiKey != null) {
                 // Add the API key to the request if present
                 conn.addRequestProperty("X-API-Key", apiKey);
             }
@@ -91,7 +91,7 @@ public class Updater {
             // Parse the array of files from the query's response
             JSONArray array = (JSONArray) JSONValue.parse(response);
 
-            if(array.size() > 0) {
+            if (array.size() > 0) {
                 // Get the newest file's details
                 JSONObject latest = (JSONObject) array.get(array.size() - 1);
 
