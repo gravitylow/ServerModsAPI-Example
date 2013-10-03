@@ -14,7 +14,7 @@ import org.json.simple.JSONValue;
  * <br>
  * See the README file for further information of use.
  */
-public class Updater {
+public class Update {
 
     // The project's unique ID
     private final int projectID;
@@ -38,7 +38,7 @@ public class Updater {
      *
      * @param projectID The BukkitDev Project ID, found in the "Facts" panel on the right-side of your project page.
      */
-    public Updater(int projectID) {
+    public Update(int projectID) {
         this(projectID, null);
     }
 
@@ -48,7 +48,7 @@ public class Updater {
      * @param projectID The BukkitDev Project ID, found in the "Facts" panel on the right-side of your project page.
      * @param apiKey Your ServerMods API key, found at https://dev.bukkit.org/home/servermods-apikey/
      */
-    public Updater(int projectID, String apiKey) {
+    public Update(int projectID, String apiKey) {
         this.projectID = projectID;
         this.apiKey = apiKey;
 
