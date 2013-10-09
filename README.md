@@ -21,7 +21,7 @@ What this code is NOT
 
 * A realistic implementation of API key usage (API keys should be provided by server admins, per-server, not ever shared or provided by the plugin developer).
 
-* Recommended to be implemented in your plugin without modification.
+* Recommended to be implemented in your plugin without modification as without a toggle to allow server admins to disable the update checking/downloading your plugin will be denied.
 
 
 If you are looking for code that is capable of these things, see [Updater](https://github.com/h31ix/Updater), a drop-in, fully-featured updating class for your plugin that uses the API outlined in this code.
