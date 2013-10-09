@@ -43,9 +43,7 @@ Example:
 
 **To obtain your Project's ID:**
 
-1. Point your web browser to the desired project's page on BukkitDev.
-2. Locate the "Facts" pane, located on the right side of the page.
-3. Copy the Project ID, the first value listed in the pane.
+Follow the instructions on the [http://wiki.bukkit.org/ServerMods_API#Searching_for_project_IDs](ServerMods API wiki article).
 
 **To obtain your API key:**
 
