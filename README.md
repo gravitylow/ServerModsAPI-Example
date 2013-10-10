@@ -43,7 +43,7 @@ Example:
 
 **To obtain your Project's ID:**
 
-Follow the instructions on the [http://wiki.bukkit.org/ServerMods_API#Searching_for_project_IDs](ServerMods API wiki article).
+Follow the instructions on the [ServerMods API wiki article](http://wiki.bukkit.org/ServerMods_API#Searching_for_project_IDs).
 
 **To obtain your API key:**
 
